@@ -1,0 +1,331 @@
+%-------------------------
+% Resume in Latex
+% Author : Mohamed RIZKI
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{center}
+    \textbf{\Huge \scshape Mohamed RIZKI} \\ \vspace{3pt}
+    \small
+    \faMobile \hspace{.5pt} \href{tel:33744720875}{+33 7 44 72 08 75}
+    $|$
+    \faAt \hspace{.5pt} \href{mailto:Mohamedrizki07@gmail.com}{Mohamedrizki07@gmail.com}
+    $|$
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/mohamed-rizki-979b03104/}{LinkedIn}
+    $|$
+    \faGithub \hspace{.5pt} \href{https://github.com/MohamedRizki}{GitHub}
+    $|$
+    \faGlobe \hspace{.5pt} \href{https://mohamedrizki.github.io/Portfolio-Mohamed-RIZKI/}{Portfolio}
+    $|$
+    \faMapMarker \hspace{.5pt} \href{https://www.google.com/maps/place/Paris,+France/@48.8566,2.3522,15z}{Paris, France}
+\end{center}
+
+%----------- SUMMARY -----------
+
+\section*{Profile}
+\vspace{3pt}
+\noindent
+Engineer in Geomatics and Data Science with international academic and professional experience in France and Morocco. Passionate about the energy transition, geospatial technologies, and data-driven innovation. Looking for a full-time opportunity where I can apply my skills in geospatial development, spatial data analysis, and automation to contribute to impactful projects in environment, energy, or urban intelligence.
+
+%----------- EDUCATION -----------
+
+\section{Education}
+\vspace{3pt}
+\resumeSubHeadingListStart
+
+  \resumeEducationHeading
+    {ENSG-Géomatique}{Paris, France}
+    {Geomatics Engineer – Specialization: Geo Data Science}{Sep 2023 -- Sep 2025}
+    {Final Year Project:  Improvement of the Geographic Information System of ENGIE CRIGEN Lab}
+
+  \resumeEducationHeading
+    {Hassan II Agronomic and Veterinary Institute}{Rabat, Morocco}
+    {Master in Space Science and Technology – Specialization: GNSS}{Sep 2017 -- Sep 2019}
+    {Final Year Project: Integration of GNSS and Inertial Navigation System in Aerial Photogrammetry}
+
+  \resumeEducationHeading
+    {Faculty of Sciences Semlalia, Cadi Ayyad University}{Marrakech, Morocco}
+    {Bachelor in Materials Science and Physics – Specialization: Modern Physics}{Sep 2014 -- Jun 2017}
+    {}
+
+\resumeSubHeadingListEnd
+
+
+
+
+
+
+%----------- SKILLS -----------
+
+\section{Skills}
+\vspace{2pt}
+\resumeSubHeadingListStart
+  \small{\item{
+    
+    \textbf{Languages:} C++, Java, Python, JavaScript, MATLAB, R, HTML, CSS \\ \vspace{3pt}
+    
+    \textbf{Technologies:} Qt, Flask, Node.js, React.js, MongoDB, PostgreSQL, Git, Docker, Kubernetes, Linux, Socket.IO \\ \vspace{3pt}
+    
+    \textbf{Libraries:} ArcPy, PyQGIS, GeoPandas, Shapely, Rasterio, GDAL/OGR, Pyproj, NumPy, Pandas, Matplotlib, Leaflet.js \\ \vspace{3pt}
+    
+    \textbf{Geospatial Tools:} ArcGIS Pro, ArcGIS Enterprise, QGIS, FME Workbench, GeoServer, Experience Builder, PostGIS, AutoCAD
+    
+  }}
+\resumeSubHeadingListEnd
+
+
+
+
+%----------- EXPERIENCE -----------
+
+\section{Experience}
+\vspace{3pt}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {ENGIE Lab CRIGEN}{Paris, France}
+    {GIS Engineer}{Oct 2024 -- Oct 2025, Work-Study Program}
+    \resumeItemListStart
+      \resumeItem{Designed and developed interactive GIS web applications using ArcGIS Experience Builder, Dashboards, and Story Maps to visualize environmental and social indicators.}
+      \resumeItem{Created, styled, and managed geospatial layers (ArcGIS Pro/Enterprise); published services and maintained spatial databases (PostgreSQL + ArcSDE).}
+      \resumeItem{ Developed Python scripts to automate data processing, formatting, and spatial-temporal visualization workflows.}
+      \resumeItem{ Researched and integrated climate, environmental, and societal datasets relevant to R\&D projects.}
+      \resumeItem{ Provided user support: troubleshooting, tool improvements, technical assistance, and presentations.}
+      \resumeItem{Occasionally contributed to machine learning initiatives (e.g., classification tasks) and the design of advanced spatial analysis protocols.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {TERIA - EXAGONE}{Paris, France}
+    {Software Engineer}{May 2024 -- Sep 2024, Internship}
+    \resumeItemListStart
+      \resumeItem{Engineered Python automation scripts for real-time GNSS data ingestion from TCP/IP streams (NTRIP/RTCM), with built-in error recovery ensuring continuous and reliable data flow.}
+      \resumeItem{Designed and optimized PostgreSQL/PostGIS databases to store and manage GNSS data daily.}
+      \resumeItem{Developed a RESTful API delivering RTCM corrections based on user location, featuring dynamic station selection (within 100 km) and real-time interpolation of geodetic parameters (SIC, SOC, ZTD).}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Circet Morocco}{Casablanca, Morocco}
+    {FTTH/GIS Engineer}{Jan 2020 -- Aug 2023, Full time}
+    \resumeItemListStart
+      \resumeItem{Produced detailed FTTH network maps on cadastral backgrounds: digitizing, projecting, editing, and publishing deployment and redesign plans.}
+      \resumeItem{Modeled network infrastructure (manholes, poles, boxes, cables, active/passive equipment) in GIS platforms (ArcGIS, QGIS, NetGeo), structuring thematic layers.}
+      \resumeItem{Integrated, cleaned, and harmonized data from AutoCAD drawings, field surveys, and client databases to build exploitable geospatial datasets.}
+      \resumeItem{Created and maintained PostGIS databases organizing telecom layers for consultation, spatial analysis, and cartographic editing.}
+      \resumeItem{Delivered technical and thematic maps to support planning, deployment, and validation phases (PDF, WebMaps, cartographic reports).}
+      \resumeItem{Coordinated with field and engineering teams to ensure alignment between GIS data and on-site reality; contributed to As-Built documentation.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {SEPRET}{Rabat, Morocco}
+    {Master’s Thesis Project}{May 2019 -- Sep 2019, Internship}
+    \resumeItemListStart
+      \resumeItem{Compared Precise Point Positioning (PPP) and Differential GNSS processing for aerial image georeferencing, demonstrating higher accuracy with differential methods.}
+      \resumeItem{Studied the integration of GNSS/INS in aerial triangulation adjustment and evaluated direct georeferencing as an alternative to traditional workflows.}
+      \resumeItem{Conducted experimental tests on a block of 105 aerial images over 8 flight lines with varying ground control point configurations.}
+      \resumeItem{Confirmed that GNSS and INS integration significantly reduces the need for ground control points while maintaining high georeferencing accuracy.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+
+
+%----------- PROJECTS -----------
+
+\section{Projects}
+\vspace{3pt}
+\resumeSubHeadingListStart
+
+  \resumeProjectHeading
+    {\textbf{IsoComp – Isochrone Comparison Web Application} $|$ \emph{\href{https://github.com/MohamedRizki/ISO-COMP}{\color{blue}GitHub}}}{}
+      \resumeItemListStart
+        \resumeItem{Web application comparing isochrones from IGN, Mapbox, Here, and Ciril Group APIs using Leaflet and Flask.}
+        \resumeItem{Computed metrics like response time, area coverage, routing accuracy, and Hausdorff distance to assess API performance.}
+        \resumeItem{Exported results as GeoJSON and generated detailed comparison reports in PDF format.}
+        \resumeItem{Technologies: Flask, GeoPandas, Shapely, Leaflet.js, FPDF, HTML/CSS, JavaScript, REST APIs}
+      \resumeItemListEnd
+
+  \resumeProjectHeading
+    {\textbf{GeoEngie – ArcGIS Automation Library} $|$ \emph{\href{https://github.com/MohamedRizki/Geo-ENGIE}{\color{blue}GitHub}}}{}
+      \resumeItemListStart
+        \resumeItem{Python library streamlining repetitive ArcGIS Pro tasks via ArcPy, improving consistency and productivity.}
+        \resumeItem{Automated tasks include updating data sources, applying pop-up templates, and enforcing decimal precision.}
+        \resumeItem{Technologies: Python, ArcPy, ArcGIS Pro}
+      \resumeItemListEnd
+
+  \resumeProjectHeading
+    {\textbf{Real-Time GNSS Quality API} $|$ \emph{\href{https://github.com/MohamedRizki/GNSS-Quality-API}{\color{blue}GitHub}}}{}
+      \resumeItemListStart
+        \resumeItem{API delivering real-time GNSS station quality indicators to users based on live GNGGA messages.}
+        \resumeItem{Backend scripts processed 24/7 GNSS data via TCP/IP and updated PostGIS with quality metrics.}
+        \resumeItem{Used Flask-SocketIO to send updates every second to client apps.}
+        \resumeItem{Resulted in a scientific publication in XYZ Journal.}
+        \resumeItem{Technologies: Flask, Socket.IO, PostgreSQL/PostGIS, Python (Pyproj, Geopy, psycopg2)}
+      \resumeItemListEnd
+
+  \resumeProjectHeading
+    {\textbf{Localized Genealogy – Interactive Data Collection App} $|$ \emph{\href{https://github.com/MohamedRizki/GenealogieLocalisee}{\color{blue}GitHub}}}{}
+      \resumeItemListStart
+        \resumeItem{Developed interactive PHP/JavaScript form to collect genealogical and geographic data for kinship mapping.}
+        \resumeItem{Integrated Leaflet.js for mapping and used MySQL for storing structured family data.}
+        \resumeItem{Deployed on MAMP and used FlightPHP as the lightweight routing framework.}
+        \resumeItem{Technologies: PHP, FlightPHP, JavaScript, Leaflet.js, MySQL, HTML/CSS}
+      \resumeItemListEnd
+
+  \resumeProjectHeading
+    {\textbf{Experience Builder – Custom Web Map Layer Widget} $|$ \emph{\href{https://github.com/MohamedRizki/Drop-Down-List-Of-Layers}{\color{blue}GitHub}}}{}
+      \resumeItemListStart
+        \resumeItem{Created a widget that dynamically lists and displays Web Map layers in Experience Builder using dropdown.}
+        \resumeItem{Ensures layer visibility toggling and auto-zoom based on layer extent.}
+        \resumeItem{Technologies: React, TypeScript, ArcGIS Experience Builder SDK, JavaScript}
+      \resumeItemListEnd
+
+  \resumeProjectHeading
+    {\textbf{EasyExport – QGIS Automated Map Export Tool} $|$ \emph{\href{https://github.com/MohamedRizki/EasyExport}{\color{blue}GitHub}}}{}
+      \resumeItemListStart
+        \resumeItem{Python script for exporting QGIS layouts as PDFs with control over overlap, layout selection, and exclusions.}
+        \resumeItem{Automates layout extent splitting and batch exports based on user parameters.}
+        \resumeItem{Technologies: Python, QGIS API (PyQGIS)}
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+%----------- LANGUAGES & INTERESTS -----------
+\section{Languages and Interests}
+\vspace{3pt}
+\resumeSubHeadingListStart
+  \small{
+    \item{\textbf{Languages:}  Tamazight/Arabic (Native), French (C1 - TCF), English (B2 - TOEIC)}
+    \item{\textbf{Interests:} Boxing, Running, Data Visualization, GeoAI}
+  }
+\resumeSubHeadingListEnd
+
+\end{document}

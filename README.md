@@ -1,4 +1,4 @@
-# arasgungore-CV
+# MRIZKI-CV
 
 My curriculum vitae (CV) written using LaTeX. In my CV, you may find my contact information, websites, education, experience, achievements, projects, and skills.
 
@@ -25,7 +25,7 @@ pdflatex main.tex
 
 ## Author
 
-👤 **Mohamed RIZKI**
+**Mohamed RIZKI**
 
 * LinkedIn: [@mohamed-rizki-979b03104](https://www.linkedin.com/in/mohamed-rizki-979b03104)
 * GitHub: [@MohamedRizki](https://github.com/MohamedRizki)

@@ -2,7 +2,7 @@
 
 My curriculum vitae (CV) written using LaTeX. In my CV, you may find my contact information, websites, education, experience, achievements, projects, and skills.
 
-Please find attached my [CV](https://drive.google.com/file/d/1HXuSvjNoK01b0tCGdloEsg27sjadt2TC/view?usp=sharing). 😜
+Please find attached my [CV](https://drive.google.com/file/d/1HXuSvjNoK01b0tCGdloEsg27sjadt2TC/view?usp=sharing).
 
 
 
